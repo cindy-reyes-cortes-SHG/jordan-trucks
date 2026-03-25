@@ -4,6 +4,7 @@
 /***** Start of primary nav ******/
 #menu-button{display: none;}
 nav.mobile { display:none;}
+.mobile-menu {display:none;}
 
 nav.primary {
 	padding:0;
@@ -130,6 +131,17 @@ nav.mobile {
 	z-index: 500; /* needs to be higher than #menu-button, adjust as needed */
 	overflow:auto;
 }
+
+.mobile-menu{
+	display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    max-width: 140px;
+}
+
 /* MENU HEADER SOCIAL MEDIA */
 	nav.mobile .social-media {
 		position: relative;

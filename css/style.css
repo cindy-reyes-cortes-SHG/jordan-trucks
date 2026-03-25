@@ -91,7 +91,7 @@ hr{border:#000 1px solid;}
 
 header {background: #000;}
 .flex-header { margin: 0 auto;}
-.logo {max-width: 250px;}
+.logo {max-width: 170px;}
 .logo img {width: 100%; }
 
 .header-contact{
@@ -167,10 +167,6 @@ header {background: #000;}
 	color:#000;
 	text-decoration: none;
 	transition:ease .3s;
-}
-
-.anni-logo{
-
 }
 
 .anni-logo img{width:100%; margin:0 auto; max-width: 130px; text-align: right;}
@@ -738,10 +734,6 @@ header {background: #000;}
 }
 /*---------- RESPONSIVE STYLES ----------*/
 
-@media screen and (max-width:1800px){
-	.logo {width: 14%;}
-	
-}
 
 @media screen and (max-width:1575px){
 	.cta-box p{height:150px;}	
@@ -769,18 +761,11 @@ header {background: #000;}
 	.member{width:49%;}
 }
 
-@media screen and (max-width:1130px){
-	
-	.logo{padding:0;}
-	.anni-logo{padding:0;}
-}
-
 @media screen and (max-width:1090px){
 
-	.anni-logo {display: none;}
+	
 	.flex-header {display: none;}
 	.header-left{width:100%; padding: 0 20px;display: flex;}
-	.logo{width:50%; text-align: center;vertical-align: middle; padding:20px;}
 	.anniv-logo{width:50%;text-align: center;}
 	.anniv-logo img{width:150px; }
 	
@@ -839,9 +824,7 @@ header {background: #000;}
 	.header-btn{width: 80%;}
 }
 
-@media screen and (max-width:575px){
-	.logo img{width:100%;}
-	
+@media screen and (max-width:575px){	
 	.inv-landing-btn{margin:10px 20px 10px 0; font-size:15px;}
 	.inv-pic img{width:100%;}
 	
