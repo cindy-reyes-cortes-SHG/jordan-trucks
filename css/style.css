@@ -87,31 +87,39 @@ hr{border:#000 1px solid;}
 #padding50 {padding: 50px 0;}
 #padding25 {padding: 25px 0;}
 /*--- HEADER STYLES ---------------------*/
-.mobile{display: none;}
+
 
 header {background: #000;}
-.flex-header {display: flex; flex-direction: row; align-items: center; width: 90%; margin: 0 auto;}
-.logo {width: 25%; text-align: center; margin-bottom: -20px;}
-.logo img {width: 100%; max-width: 250px;}
-.header-right {width: 90%; text-align: right;}
+.flex-header { margin: 0 auto;}
+.logo {max-width: 250px;}
+.logo img {width: 100%; }
+
+.header-contact{
+	display: flex;
+	gap: 25px;
+}
+
 .header-contact-info{
-	width:100%;
-	display: block;
-	text-align: right;
-	margin:0 auto;
-	padding:20px ;
+	padding: 20px;
+	padding-bottom: 0px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .header-contact-info p{
-	font-size:16px; 
+	font-size:13px; 
 	color:#fff;
 	text-transform: uppercase;
-	padding:0 20px;
-	display: inline-block;
-	vertical-align: middle;
 	font-weight:500;
-	
+	padding: 0px;
+	line-height: 20px;
 }
+
+.right-menu {
+    display: flex;
+    align-items: center;
+}
+
 
 .header-contact-info a{ color:#fff; transition: .3s ease;}
 .header-contact-info a[href^="tel:"]{ color:#fff; transition: .3s ease;}
@@ -119,12 +127,23 @@ header {background: #000;}
 .header-contact-info .fa{color:#ca1b28; font-size:22px; transition: .3s ease;}
 .header-contact-info .fa:hover{color:#fff; font-size:22px;}
 
+.social-links{
+	display: flex;
+	padding: 5px 20px;
+	justify-content: flex-end;
+	background-color: #CA1B28;
+
+	a{
+		color: #fff;
+	}
+}
+
 
 .head-btns-right{
-	width:100%;
-	display: inline-block;
-	vertical-align: bottom;
-	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .header-btn{
@@ -151,16 +170,11 @@ header {background: #000;}
 }
 
 .anni-logo{
-	width:11%;
-	display: inline-block;
-	vertical-align: middle;
-	text-align: right;
-	margin:0 auto;
+
 }
 
 .anni-logo img{width:100%; margin:0 auto; max-width: 130px; text-align: right;}
 
-.main-nav {width: 90%; margin: 0 auto; margin-top:-10px;}
 
 /*---BODY--------------------------------*/
 
@@ -730,22 +744,16 @@ header {background: #000;}
 }
 
 @media screen and (max-width:1575px){
-	.cta-box p{height:150px;}
-	.header-contact-info p{padding:0 10px;}
-	
+	.cta-box p{height:150px;}	
 }
 
 @media screen and (max-width:1400px){
-	.header-contact-info p{width:100%; padding:5px 20px;}
 	.header-btn{margin-top:5px;}
 	
 	
 }
 
 @media screen and (max-width:1330px){
-	.header-right{width:100%;}
-	.header-contact-info{text-align: center; padding: 10px;}
-	.header-contact-info p{width:auto;}
 	.header-left{width:100%; padding: 0 20px;}
 }
 
@@ -762,19 +770,15 @@ header {background: #000;}
 }
 
 @media screen and (max-width:1130px){
-	.header-contact-info p{font-size:16px;}
 	
 	.logo{padding:0;}
 	.anni-logo{padding:0;}
 }
 
 @media screen and (max-width:1090px){
-	.mobile {display: block;}
+
 	.anni-logo {display: none;}
 	.flex-header {display: none;}
-	.header-right{width:100%;}
-	.header-contact-info{text-align: center; padding: 10px;}
-	.header-contact-info p{width:auto;}
 	.header-left{width:100%; padding: 0 20px;display: flex;}
 	.logo{width:50%; text-align: center;vertical-align: middle; padding:20px;}
 	.anniv-logo{width:50%;text-align: center;}
@@ -791,8 +795,6 @@ header {background: #000;}
 
 @media screen and (max-width:1015px){
 	.width-70 {width: 92%;}
-	.header-contact-info{padding:20px 10px;}
-	.header-contact-info p{font-size:14px;}
 	
 	.cta-bar{display: inline-block;}
 	.cta-box{display: inline-block; width:100%;}
@@ -807,7 +809,6 @@ header {background: #000;}
 }
 
 @media screen and (max-width:900px){
-	.header-contact-info p{width:100%;}
 	
 	.welc-copy{display: inline-block;}
 	.welc-left{width:100%;}
@@ -857,7 +858,6 @@ header {background: #000;}
 }
 
 @media screen and (max-width:460px){	
-	.header-contact-info p{font-size:12px;}
 	.anniv-logo img{width:70%;}
 	.header-btn{width: 100%; margin: 5px auto}
 	

@@ -7,11 +7,11 @@ nav.mobile { display:none;}
 
 nav.primary {
 	padding:0;
-	display:inline-block;
-	margin:0;
-	width:88%;
-	position:relative;
-	text-align: right;
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 	}
 	nav.primary ul {
 		margin:0; 
@@ -37,7 +37,6 @@ nav.primary {
 				-o-transition: .2s ease-in;
 				transition: .2s ease-in;
 				font-weight: 500;
-				border-right: 2px solid #fff;
 				font-family: 'Montserrat', sans-serif;
 				}	
 			nav.primary ul li a:hover {
