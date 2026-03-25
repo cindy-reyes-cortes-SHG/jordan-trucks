@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>http://www.jordantrucksales.com/</loc> 
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority> 
+	</url>
+	
+	<url>
+		<loc>http://www.jordantrucksales.com/default.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+		<priority>0.95</priority>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/inv.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/media-gallery.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/our-story.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/asset-management.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/georgia-location.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/texas-location.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/sell-your-truck.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/thankyou.htm</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/inventory/?/listings/for-sale/equipment/all?LocationID=350000083148&amp;dlr=1&amp;settingscrmid=358639&amp;sort=3&amp;title=Georgia%20Inventory</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://www.jordantrucksales.com/inventory/?/listings/for-sale/equipment/all?LocationID=350009270289&amp;dlr=1&amp;settingsCrmid=358639&amp;sort=3&amp;title=Texas%20Inventory</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	
+	
+		<url>
+		<loc>http://www.jordantrucksales.com/inventory/?/listings/?LocationID=350000083148&amp;settingscrmid=358639&amp;IsSegmentSearch=1</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+	
+	
+		<url>
+		<loc>http://www.jordantrucksales.com/inventory/?/listings/for-sale/other-items/40000?LocationID=350000083148&amp;settingscrmid=358639</loc>
+		<lastmod>2026-03-24</lastmod> 
+		<changefreq>daily</changefreq>
+	</url>
+
+</urlset>

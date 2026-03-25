@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Financing Form Styles */
+
+.flex-form{
+	width:100%;
+	text-align: left;
+	margin: 0 auto;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	font-size: 15px;
+}
+
+.flex-form h3{
+	width:100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-top:2px solid #eee;
+	padding:20px 0 20px 0;
+	margin-top:40px;
+}
+
+.flex-form h4{
+	width:100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top:40px;
+	padding:10px 0;
+	font-size: 16px;
+}
+.flex-form label{font-weight: 700;font-family: 'Montserrat', sans-serif;}
+
+.flex-form span{text-align: left; margin: 0; font-size: 12px;}
+
+
+.flex-form #formpage input, select{margin-top:5px;}
+
+.flex-form .flex-row{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: flex-end; 
+	width: 100%;
+}
+
+.flex-border{
+	border:2px solid #eee;
+	padding:20px;
+}
+
+.flex-input{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	margin: 10px 5px 5px 5px;
+	text-align: left;
+}
+
+
+
+.check-container {display: inline-block; text-align: left; margin: 0;}
+.check-container input[type="checkbox"]{display: inline-block; width:20px !important;}
+	
+
+
+
+/*form styles*/
+.parts-request{
+	width:100%;
+	padding:40px 0;
+	text-align:left;
+	margin-top:40px;
+	border-top:1px solid #eaeaea;
+}
+
+.parts-request h3{text-transform:uppercase;font-family: 'Montserrat', sans-serif;}
+
+#formpage {
+	width:100%;
+	vertical-align: top;
+	display:inline-block;
+	text-align:left;
+}
+
+#formpage p{
+	text-align:left;
+}
+#formpage h4{margin-top:30px;}
+
+.form-half{
+	width:48%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.add-part{
+	padding:30px;
+	border:1px solid #f1f1f1;
+	margin:20px 0 0 0
+}
+.add-part h4{margin:0 0 10px 10px !important;}
+
+
+.formfield {
+	width: 100%;
+	display:inline-block;
+	margin-right: 10px;
+	margin-top: 10px;
+	min-width: 175px;
+	text-align:left;
+}
+
+#formpage input,select {
+	padding: 6px 5px 10px;
+	border: 1px solid #f1f1f1;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 16px;
+	margin-top: 5px;
+    border-radius: 2px;
+	background:#f1f1f1;
+}
+
+#formpage input:focus {
+	border: 1px solid #eaeaea;
+	border-radius:2px
+}
+
+#formpage option{color:#333;background:#fff;}
+
+/*===PLACEHOLDER TEXT STYLES===*/
+
+#formpage ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #767676;
+}
+#formpage ::-moz-placeholder { /* Firefox 19+ */
+  color: #767676;
+}
+#formpage :-ms-input-placeholder { /* IE 10+ */
+  color: #767676;
+}
+#formpage :-moz-placeholder { /* Firefox 18- */
+  color: #767676;
+}
+#formpage input.submit-button, #formpage input.submit-button:focus {
+	background:#C4161C; 
+	color:#fff;
+	padding:10px 25px;
+	text-decoration:none;
+	border-radius:2px;
+	transition:ease-in .3s;
+	width:250px;
+	border:none;
+	height:auto;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+}
+
+
+
+#formpage input.submit-button:hover{
+	background:#000; 
+	box-shadow:1px 1px 2px #848484;
+	transition:ease-out .3s;
+}
+
+input[type="button"],
+input[type="submit"] {
+	-webkit-appearance: none;
+}
+
+#formpage textarea {
+	padding: 6px 5px;
+	border: 1px solid #f1f1f1;
+	color: #000;
+	font-size: 16px;
+	background: #f1f1f1;
+	width: 100%;
+	height: 85px;
+	border-radius:2px;
+	margin-top:10px;
+}
+
+#formpage textarea:focus{
+	border: 1px solid #eaeaea;
+	border-radius:2px
+} 
+
+.CaptchaPanel{width:100%;}
+
+.CaptchaImagePanel img{width:200px;}
+
+.CaptchaAnswerPanel{
+	width:250px;
+	margin: 0 auto;
+}
+.CaptchaWhatsThisPanel a{color:#333;}
+
+.submit-button{
+	padding:10px 0px 10px 0px;
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+
+/*end form styles*/
+
+
+@media screen and (max-width: 1170px)  {
+	.form-half{width: 46%;}
+}
+
+@media screen and (max-width: 900px)  {
+	.flex-form .flex-row{flex-wrap: wrap;}
+}
+
+@media screen and (max-width: 700px)  {
+	.form-half{width: 98%;}
+}
+
+@media screen and (max-width: 450px)  {
+	.add-part{padding: 20px;}
+}
+
